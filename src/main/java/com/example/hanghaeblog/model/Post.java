@@ -1,4 +1,4 @@
-package com.example.hanghaeblog.domain;
+package com.example.hanghaeblog.model;
 
 import com.example.hanghaeblog.dto.PostDto;
 import lombok.Getter;

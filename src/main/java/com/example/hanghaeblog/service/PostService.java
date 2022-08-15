@@ -1,6 +1,6 @@
 package com.example.hanghaeblog.service;
 
-import com.example.hanghaeblog.domain.Post;
+import com.example.hanghaeblog.model.Post;
 import com.example.hanghaeblog.dto.PostDto;
 import com.example.hanghaeblog.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
