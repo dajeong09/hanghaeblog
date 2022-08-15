@@ -35,9 +35,9 @@ public class PostController {
     }
 
     @PutMapping("/post/{id}")
-    public Long updatePost(@PathVariable Long id, @RequestBody PostDto postDto) {
+    public Optional<Post> updatePost(@PathVariable Long id, @RequestBody PostDto postDto) {
         postService.update(id, postDto);
-        return id;
+        return postRepository.findById(id);
     }
 
     @DeleteMapping("/post/{id}")
